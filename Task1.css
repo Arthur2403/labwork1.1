@@ -1,0 +1,79 @@
+body{
+    background-image: url(/summer-time-under-the-sea-ocean-water-2021-08-28-14-51-43-utc-scaled.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0603/5439/6408/files/fishcircle_2000x952_09cd941e-e1e9-4ed6-9b93-a94166e9c37f.webp?v=1653509090);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 40em;
+    width: 60em;
+    margin-top: 2em;
+    margin-left: 15em;
+    }
+.register { grid-area: 1 / 2 / 2 / 3; }
+.register{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    display: block;
+    margin-top: 3em;
+    margin-bottom: 0em;
+}
+p{
+    color: #c2c2c2;
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+label{
+    font-size: smaller;
+    color: #c2c2c2;
+}
+.text{  
+    border-left: none; 
+    border-right: none; 
+    border-top: none;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ff125d, #ff5177, #ffa4c7, #ffffff00 ) 47% 0%;
+    padding-bottom: 0;
+    margin-bottom: 1em;
+}
+.checkbox{
+    display: inline;
+}
+span{
+    color: #c2c2c2;
+    margin-right: 0.25em;
+}
+a{
+    color: #ff125d;
+}
+.button{
+    margin-top: 1em;
+    width: 25em;
+    height: 3em;
+    color: white;
+    background-color: #ff125d;
+    border: none;
+    border-radius: 3em;
+    display: block;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5em;
+}
+
+
+
+
